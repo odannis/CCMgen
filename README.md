@@ -41,7 +41,7 @@ Please check out the [GitHub releases page for CCMgen](https://github.com/soedin
 To clone the latest development version of CCMgen/CCMpredPy, please use the following command line:
 
 ```bash
-git clone https://github.com/soedinglab/ccmgen.git
+git clone https://github.com/odannis/ccmgen.git
 ```
 
 ## Installation
@@ -59,12 +59,16 @@ pip install .
 Alternatively, you can install the latest development version of CCMgen/CCMpredPy with `pip` directly from this repository:
 
 ```bash
-pip install git+https://github.com/soedinglab/ccmgen@master
+pip install git+https://github.com/odannis/ccmgen@master
+```
+!!!! On the EPFL CLUSTER do :
+```bash 
+pip install --no-cache-dir git+https://github.com/odannis/ccmgen@master
 ```
 and keep updated with:
 
 ```bash
-pip install git+https://github.com/soedinglab/ccmgen@master --upgrade
+pip install git+https://github.com/odannis/ccmgen@master --upgrade
 ```
 ## Uninstall
 
